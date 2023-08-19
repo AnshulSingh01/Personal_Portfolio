@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Anshul's Portfolio</title>
+        <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="font-awesome.css">
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+
+        <!-- Page Loader Start -->
+        <div class="page-loader">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <!-- Page Loader End -->
+
+        <!-- Background Circles Start -->
+        <div class="bg-circles">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div class="circle-3"></div>
+            <div class="circle-4"></div>
+        </div>
+        <!-- Background Circles End -->
+
+        <!-- Overlay Start -->
+        <div class="overlay">
+        </div>
+        <!-- Overlay End -->
+
+
+        <!-- Main Start -->
+        <div class="main hidden">
+
+            <!-- Header Start -->
+            <header class="header">
+                <div class="container">
+                    <div class="row flex-end">
+                        <button type="button" class="nav-toggler">
+                            <span></span>
+                        </button>
+                        <nav class="nav">
+                            <div class="nav-inner">
+                                <ul>
+                                    <li><a href="#home" class="nav-item link-item">home</a></li>
+                                    <li><a href="#about" class="nav-item link-item">about</a></li>
+                                    <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+                                    <li><a href="#contact" class="nav-item link-item">contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!-- Header End -->
+
+            <!-- Home Section Start -->
+            <section class="home-section align-items-center" id="home">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="home-text">
+                            <p>Hello I am</p>
+                            <h1>anshul singh</h1>
+                            <h2>web developer</h2>
+                            <a href="#about" class="btn link-item">more about me</a>
+                            <a href="#portfolio" class="btn link-item">portfolio</a>
+                        </div>
+                        <div class="home-img">
+                            <div class="img-box">
+                                <img src="images/profile.png" alt="profile-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Home Section End -->
+
+            <!-- About Section Start -->
+            <section class="about-section sec-padding" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>about me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-img">
+                            <div class="img-box">
+                                <img src="images/about.png" alt="about img">
+                            </div>
+                        </div>
+                        <div class="about-text">
+                            <p>
+                                Hello, I'm Anshul Singh, and I'm thrilled to dive into the world of web 
+                                development! As a passionate web developer, I've honed my expertise
+                                 in both the front-end and back-end realms. Crafting captivating websites is 
+                                 my forte, and I bring a touch of visual magic to every project I undertake. 
+                                 But that's not all – my backend skills are powered by Java, adding a layer 
+                                 of robust functionality to the sites I create.
+                            </p>
+                            <h3>skills</h3>
+                            <div class="skills">
+                                <div class="skill-item">html</div>
+                                <div class="skill-item">css</div>
+                                <div class="skill-item">javascrpit</div>
+                                <div class="skill-item">java</div>
+                                <div class="skill-item">python</div>
+                                <div class="skill-item">tailwind css</div>
+                                <div class="skill-item">data structures and algorithms</div>
+                                <div class="skill-item">SQL</div>                            
+                            </div>
+                            <div class="about-tabs">
+                                <button type="button" class="tab-item active" data-target="#education">education</button>
+                                <button type="button" class="tab-item" data-target="#experience">experience</button>
+                            </div>
+
+                            <!-- Education Start -->
+                            <div class="tab-content active" id="education">
+                                <div class="timeline">
+                                    <div class="timeline-item">
+                                        <span class="date">2020 - Present</span>
+                                        <h4>bachelor of tehcnology - <span>GL Bajaj Group of Institutions</span></h4>
+                                        <p>
+                                            I am pursuing B. Tech from GL Bajaj Group of Institutions Mathura from Computer Science
+                                            and Engineering.
+                                            <br>
+                                            <b>CGPA (Till 5<sup>th</sup> sem): 7.11</b>
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <span class="date">2019 - 2020</span>
+                                        <h4>Intermediate - <span>Roy Vidya Vihar Senior Secondary School</span></h4>
+                                        <p>
+                                            I had completed my class 12 from CBSE Board.
+                                            <br>
+                                            <b>Percentage : 83.6%</b>
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <span class="date">2017 - 2018</span>
+                                        <h4>High School - <span>Colonel's Brightland Public School</span></h4>
+                                        <p>
+                                            I had completed my class 10 from CBSE Board.
+                                            <br>
+                                            <b>Percentage : 91.8%</b>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Education End -->
+
+                            <!--  Experience Start -->
+                            <div class="tab-content" id="experience">
+                                <div class="timeline">
+                                    <div class="timeline-item">
+                                        <span class="date">August 2022 - October 2022</span>
+                                        <h4>QA Intern - <span>leapwork india pvt. ltd.</span></h4>
+                                        <p>
+                                            I had completed my 8-weeks internship as a QA Intern in Leapwork India Pvt. Ltd.
+                                            I had worked on testing of areas like "Salesforce, Workday, Dynamic365, Oracle cloud, Smoke".
+                                            The project was aimed at automating test cases and test suites. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Experience End -->
+
+                            <a href="Anshul_Resume.pdf" target="_blank" class="btn">download cv</a>
+                            <a href="#contact" class="btn link-item">contact me</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About Secion End -->
+
+            <!-- Portfolio Section Start -->
+            <section class="portfolio-section sec-padding" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>recent work</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="images/Portfolio/1.png" alt="portfolio item thumbnail">
+                            </div>
+                            <h3 class="portfolio-item-title">personal portfolio</h3>
+                            <button type="button" class="btn view-project-btn">view project</button>
+                            <div class="portfolio-item-details">
+                                <div class="description">
+                                    <p>
+                                        I have thoroughly crafted a personal portfolio that embodies 
+                                        my journey, skills, and accomplishments in a captivating manner.
+                                        It's a collection that reflects my passion for web development and 
+                                        my commitment to delivering great user experiences. 
+                                    </p>
+                                </div>
+                                <div class="general-info">
+                                    <ul>
+                                        <!-- <li>Created - <span>4 Jan 2023</span></li> -->
+                                        <li>Technologies used - <span>Html, CSS, Javascript</span></li>
+                                        <!-- <li>Role -<span>Frontend</span></li> -->
+                                        <!-- <li>View Online -<span><a href="#" target="_blank">www.domain.com</a></span></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio Item End -->
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="images/Portfolio/2.jpg" alt="portfolio item thumbnail">
+                            </div>
+                            <h3 class="portfolio-item-title">restaurant</h3>
+                            <button type="button" class="btn view-project-btn">view project</button>
+                            <div class="portfolio-item-details">
+                                <div class="description">
+                                    <p>
+                                        I'm crafting a restaurant website that combines aesthetics and 
+                                        user-friendliness, creating an enjoyable online dining experience.
+                                    </p>
+                                </div>
+                                <div class="general-info">
+                                    <ul>
+                                        <!-- <li>Created - <span>4 Jan 2023</span></li> -->
+                                        <li>Technologies used - <span>Html, CSS, Javascript</span></li>
+                                        <!-- <li>Role -<span>Frontend</span></li> -->
+                                        <!-- <li>View Online -<span><a href="#" target="_blank">www.domain.com</a></span></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio Item End -->
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="images/Portfolio/3.jpg" alt="portfolio item thumbnail">
+                            </div>
+                            <h3 class="portfolio-item-title">app landing page</h3>
+                            <button type="button" class="btn view-project-btn">view project</button>
+                            <div class="portfolio-item-details">
+                                <div class="description">
+                                    <p>
+                                        I am currently in the process of crafting a captivating app 
+                                        landing page that will not only showcase the unique features 
+                                        and benefits of the application but also engage visitors with
+                                         an elegant design.
+                                    </p>
+                                </div>
+                                <div class="general-info">
+                                    <ul>
+                                        <!-- <li>Created - <span>4 Jan 2023</span></li> -->
+                                        <li>Technologies used - <span>Html, CSS, Javascript</span></li>
+                                        <!-- <li>Role -<span>Frontend</span></li> -->
+                                        <!-- <li>View Online -<span><a href="#" target="_blank">www.domain.com</a></span></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio Item End -->
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="images/Portfolio/4.jpg" alt="portfolio item thumbnail">
+                            </div>
+                            <h3 class="portfolio-item-title">education course website</h3>
+                            <button type="button" class="btn view-project-btn">view project</button>
+                            <div class="portfolio-item-details">
+                                <div class="description">
+                                    <p>
+                                        I'm in the process of crafting an engaging education website powered 
+                                        by Java. This dynamic platform is designed to make learning a breeze, 
+                                        offering an intuitive experience for students of all ages. It is 
+                                        user-friendly interface that brings education to life in a whole new way.
+                                    </p>
+                                </div>
+                                <div class="general-info">
+                                    <ul>
+                                        <!-- <li>Created - <span>4 Jan 2023</span></li> -->
+                                        <li>Technologies used - <span>Java, MySQL</span></li>
+                                        <!-- <li>Role -<span>Frontend</span></li> -->
+                                        <!-- <li>View Online -<span><a href="#" target="_blank">www.domain.com</a></span></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio Item End -->
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="images/Portfolio/5.jpg" alt="portfolio item thumbnail">
+                            </div>
+                            <h3 class="portfolio-item-title">QR Code Generator</h3>
+                            <button type="button" class="btn view-project-btn">view project</button>
+                            <div class="portfolio-item-details">
+                                <div class="description">
+                                    <p>
+                                        I am currently in the process of crafting a sophisticated QR code 
+                                        generator. This innovative project will empower users 
+                                        to effortlessly convert data into visually striking QR codes, tailored
+                                         to their specific needs. From URLs to contact information, the 
+                                         generator will seamlessly encode diverse content, offering an 
+                                         intuitive and user-friendly interface. 
+                                    </p>
+                                </div>
+                                <div class="general-info">
+                                    <ul>
+                                        <!-- <li>Created - <span>4 Jan 2023</span></li> -->
+                                        <li>Technologies used - <span>Python</span></li>
+                                        <!-- <li>Role -<span>Frontend</span></li> -->
+                                        <!-- <li>View Online -<span><a href="#" target="_blank">www.domain.com</a></span></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio Item End -->
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="images/Portfolio/6.webp" alt="portfolio item thumbnail">
+                            </div>
+                            <h3 class="portfolio-item-title">Weather Forecast Application</h3>
+                            <button type="button" class="btn view-project-btn">view project</button>
+                            <div class="portfolio-item-details">
+                                <div class="description">
+                                    <p>
+                                        I am presently engaged in the development of a sophisticated 
+                                        weather forecast application. Through meticulous design and 
+                                        technical finesse, this app will seamlessly deliver real-time 
+                                        weather updates to users.
+                                    </p>
+                                </div>
+                                <div class="general-info">
+                                    <ul>
+                                        <!-- <li>Created - <span>4 Jan 2023</span></li> -->
+                                        <li>Technologies used - <span>Java</span></li>
+                                        <!-- <li>Role -<span>Frontend</span></li> -->
+                                        <!-- <li>View Online -<span><a href="#" target="_blank">www.domain.com</a></span></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio Item End -->
+                    </div>
+                </div>
+            </section>
+            <!-- Portfolio Section End -->
+
+            <!-- Contact Section Start -->
+            <section class="contact-section sec-padding" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>contact me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="contact-form">
+                            <form action="https://formspree.io/f/xgejayro"
+                            method="POST">
+                                <div class="row">
+                                    <div class="input-group">
+                                        <input type="text" name="username" placeholder="Name" class="input-control" required autocomplete="off">
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="email" name="email" placeholder="Email" class="input-control" required autocomplete="off">
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="text" name="subject" placeholder="Subject" class="input-control" required autocomplete="off">
+                                    </div>
+                                    <div class="input-group">
+                                        <textarea name="textarea" placeholder="Message" class="input-control" required autocomplete="off"></textarea>
+                                    </div>
+                                    <div class="submit-btn">
+                                        <button type="submit" class="btn">send message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-info-item">
+                                <h3>Email</h3>
+                                <p><a href="mailto:asingh315903@gmail.com">asingh315903@gmail.com</a></p>
+                            </div>
+                            <div class="contact-info-item">
+                                <h3>Phone</h3>
+                                <p><a href="tel:+91 7310773870">+91 7310773870</a></p>
+                            </div>
+                            <div class="contact-info-item">
+                                <h3>follow me</h3>
+                                <div class="social-links">
+                                    <a href="https://www.linkedin.com/in/anshul-singh-3543b122b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    <a href="https://www.instagram.com/anshul_singh3101/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://github.com/AnshulSingh01" target="_blank"><i class="fab fa-github"></i></a>
+                                    <a href="https://wa.me/7310773870" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact Section End -->
+
+        </div>
+        <!-- Main End -->
+
+        <!-- Portfolio Item Details Popup Start -->
+        <div class="portfolio-popup">
+            <div class="pp-inner">
+                <div class="pp-content">
+                    <div class="pp-header">
+                        <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+                        <div class="pp-thumbnail">
+                            <img src="images/Portfolio/2.jpg" alt="pp.thumbnail">
+                        </div>
+                        <h3></h3>
+                    </div>
+                    <div class="pp-body">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Item Details Popup End -->
+    </body>
+</html>
